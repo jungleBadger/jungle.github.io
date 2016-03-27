@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Config on Jungle&#39;s</title>
-    <link>/categories/config/</link>
-    <description>Recent content in Config on Jungle&#39;s</description>
+    <title>Bluemix on Jungle&#39;s</title>
+    <link>/tags/bluemix/</link>
+    <description>Recent content in Bluemix on Jungle&#39;s</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 26 Mar 2016 21:29:02 -0300</lastBuildDate>
-    <atom:link href="/categories/config/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/bluemix/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Adding GoDaddy Domain and SSL support to IBM Bluemix</title>

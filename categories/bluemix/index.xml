@@ -34,16 +34,7 @@
 
 &lt;br /&gt;&lt;/p&gt;
 
-&lt;div class=&#34;article-gallery&#34;&gt;
-    &lt;div class=&#34;article-gallery-photos&#34;&gt;
-        
-        &lt;a class=&#34;article-gallery-img fancybox&#34; href=&#34;banners/bluemixSSL/second.png&#34; rel=&#34;group1&#34;&gt;
-            &lt;img src=&#34;/banners/bluemixSSL/second.png&#34; itemprop=&#34;image&#34;&gt;
-        &lt;/a&gt;
-        
-    &lt;/div&gt;
-&lt;/div&gt;
-
+&lt;p&gt;&lt;img src=&#34;../../../../banners/bluemixSSL/second.png &#34; width=&#34;500&#34; alt=&#34;Click on &#39;manage domains&#39;&#34;&gt;&lt;/p&gt;
 
 &lt;p&gt;Standard SSL certificates support only one subdomain + domain: Be careful with wildcard setup&lt;/p&gt;
 
@@ -84,7 +75,7 @@ $ Email Address []: jungle@badger.com
 
 &lt;p&gt;Inside Bluemix Panel go through the manage routes path and select your previously added custom domain&lt;/p&gt;
 
-&lt;p&gt;&lt;div class=&#34;article-gallery&#34;&gt;
+&lt;div class=&#34;article-gallery&#34;&gt;
     &lt;div class=&#34;article-gallery-photos&#34;&gt;
         
         &lt;a class=&#34;article-gallery-img fancybox&#34; href=&#34;banners/bluemixSSL/fourth.png&#34; rel=&#34;group1&#34;&gt;
@@ -93,7 +84,7 @@ $ Email Address []: jungle@badger.com
         
     &lt;/div&gt;
 &lt;/div&gt;
-&lt;/p&gt;
+
 
 &lt;p&gt;The first field is reserved for the primary certificate that you&amp;rsquo;ve downloaded from go Daddy earliear
 The second field you should insert the openSSL generated certified along with the password that you attached to it.
