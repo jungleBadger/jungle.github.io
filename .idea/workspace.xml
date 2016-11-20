@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8235031f-b09c-4304-b7d6-3726f8aa8905" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/raw/profilepic.jpg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/raw/cam_be_like.jpg" afterPath="$PROJECT_DIR$/assets/images/raw/cam_be_like.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="jungleBadger.iws" />
@@ -33,7 +31,7 @@
             <state relative-caret-position="165">
               <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding>
-                <element signature="e#2179#2185#0" expanded="true" />
+                <element signature="e#2184#2190#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -376,12 +374,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1479681754417</updated>
-      <workItem from="1479681755943" duration="3003000" />
+      <workItem from="1479681755943" duration="3125000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3003000" />
+    <option name="totallyTimeSpent" value="3125000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="0" width="1276" height="800" extended-state="6" />
@@ -552,7 +550,7 @@
         <state relative-caret-position="165">
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding>
-            <element signature="e#2179#2185#0" expanded="true" />
+            <element signature="e#2184#2190#0" expanded="true" />
           </folding>
         </state>
       </provider>
