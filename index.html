@@ -8,11 +8,19 @@
     <title>Daniel Abrão: Portfolio</title>
 
     <!-- Hmm, what is the impact of web fonts on speed? Measure it... -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
-
-    <link href="styles/main.style.css" rel="stylesheet">
+    <style>
+        html {
+            font-size: 100%;
+            overflow-y: scroll;
+            -webkit-tap-highlight-color: rgba(0,0,0,0);
+            -ms-text-size-adjust: 100%;
+            -webkit-text-size-adjust: none;
+        }
+        body { margin: 0; font-size: 14px; line-height: 1.61; font-weight: 400; }
+        body, button, input, select, textarea { font-family: 'Open Sans', sans-serif; color: #333; }
+    </style>
     <link href="styles/print.style.css" media="print" rel="stylesheet">
-    <link href="styles/portrait.style.css" media="screen" rel="stylesheet">
+
 </head>
 
 <body>
@@ -41,6 +49,27 @@
     <footer>
         <p>&copy; Web Performance 2014 <span id="crp-stats"></span></p>
     </footer>
+    <noscript id="deferred-styles">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+        <link href="styles/main.style.css" rel="stylesheet" type="text/css">
+        <link href="styles/portrait.style.css" media="screen" rel="stylesheet" type="text/css">
+    </noscript>
+    <script>
+        (function () {
+            "use strict";
+            var loadDeferredStyles = function() {
+                var addStylesNode = document.getElementById("deferred-styles");
+                var replacement = document.createElement("div");
+                replacement.innerHTML = addStylesNode.textContent;
+                document.body.appendChild(replacement);
+                addStylesNode.parentElement.removeChild(addStylesNode);
+            };
+            var raf = requestAnimationFrame || mozRequestAnimationFrame ||
+                    webkitRequestAnimationFrame || msRequestAnimationFrame;
+            if (raf) raf(function() { window.setTimeout(loadDeferredStyles, 0); });
+            else window.addEventListener('load', loadDeferredStyles);
+        }());
+    </script>
     <script defer src="http://www.google-analytics.com/analytics.js"></script>
     <script>
         (function(w,g){w['GoogleAnalyticsObject']=g;
