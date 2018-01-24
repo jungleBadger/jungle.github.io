@@ -1,0 +1,4 @@
+/client/**/service-worker-registration.js
+gulpfile.js
+/client/**/dist/
+/src/js/main.js

@@ -1,0 +1,23 @@
+{
+  "extends": ["eslint:recommended", "plugin:vue/base"],
+  "env": {
+    "commonjs": true,
+    "es6": true,
+    "mocha": true
+  },
+  "parserOptions": {
+	  "parser": "babel-eslint",
+	  "ecmaVersion": 2017
+  },
+  "rules": {
+    "quotes": ["error", "double"],
+    "no-console": "warn",
+    "no-confusing-arrow": "error",
+    "array-callback-return": "error",
+    "no-empty-function": "error",
+    "keyword-spacing": ["error", {
+      "before": true,
+      "after": true
+    }]
+  }
+}
